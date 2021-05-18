@@ -25,7 +25,6 @@ func main() {
 	defer cancel()
 
 	e := emulator.New(f)
-	e.Reset()
 	e.Run(ctx)
 }
 
